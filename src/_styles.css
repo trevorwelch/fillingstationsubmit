@@ -1,0 +1,70 @@
+/*
+
+  STYLES
+
+  Add custom styles here.
+
+*/
+
+
+
+#logo { font-size: 8rem; margin-left: -3%; white-space: nowrap;}
+
+@media screen and (max-width: 600px) {
+  #logo { white-space: normal; font-size: 6rem; }
+}
+
+
+html, p, body {
+    font-family: Helvetica;
+    font-size: 1.1rem;
+}
+
+
+.fig {
+  font-size: 10pt;
+  font-family: Monospace;
+  white-space: pre;
+}
+
+#outputFigDisplay pre {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+header {
+  background-image: url("/fs_just-gear-panel.png");
+
+}
+
+  @media (min-width: 600px) {
+#hoverhax:hover:after{
+  content:  attr(data);
+  background: white;
+  position: absolute;
+  color: black;
+  padding-left: 2px 4px;
+  font-size: 1.5rem;
+  font-family: times;
+  display: flex;
+  color: blue;
+  left: 50%;
+  width: 300px;
+}
+}
+
+.btn--animated {
+  background: #f9f9f9;
+  color: #444;
+  border: 4px solid #f1f1f1;
+  padding: 1.5rem;
+  transition: padding 1s ease-out;
+  transition-delay: .1s;
+}
+
+.btn--animated:hover {
+  background: #f9f9f9;
+  border: 4px solid #f1f1f1;
+  padding: .75rem;
+  transition: padding 1s ease-in;
+}
