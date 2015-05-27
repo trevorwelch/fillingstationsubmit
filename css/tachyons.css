@@ -8202,7 +8202,7 @@ body {
 }
 
 header {
-  background-image: url("/fs_just-gear-panel.png");
+  background-image: url("../img/fs_just-gear-panel.png");
 }
 
 @media (min-width: 600px) {
