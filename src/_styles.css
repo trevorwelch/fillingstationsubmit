@@ -68,3 +68,7 @@ header {
   padding: .75rem;
   transition: padding 1s ease-in;
 }
+section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
