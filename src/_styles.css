@@ -72,3 +72,7 @@ section {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+a.link.underline:hover {
+  text-decoration: none;
+}

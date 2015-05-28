@@ -8244,6 +8244,10 @@ section {
   margin-bottom: 2rem;
 }
 
+a.link.underline:hover {
+  text-decoration: none;
+}
+
 /*
    VERTICAL ALIGN
 */
