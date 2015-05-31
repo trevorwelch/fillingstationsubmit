@@ -8248,6 +8248,10 @@ a.link.underline:hover {
   text-decoration: none;
 }
 
+.panel-show {
+  display: none;
+}
+
 /*
    VERTICAL ALIGN
 */

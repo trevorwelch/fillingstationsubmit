@@ -34,7 +34,7 @@
               </ul>
             </div>
 
-            <b> then you must <a href="#submit">SUBMIT</a> </b>
+            <b> Then you must <a href="#submit" class='flip'>SUBMIT</a> <--- Click here </b>
 
           <script>
           $(function() {
@@ -43,49 +43,59 @@
           </script>
       </section>
 
-      <section>
+      <script type="text/javascript">
+        $(document).ready(function() {
+          $(".flip").click(function() {
+            $(".panel-show").slideToggle("slow");
+          });
+        });
+      </script>
 
+      <div class='panel-show'>
+        <section>
+
+          <p><pre id="taag_output_text" class="fig" >
+    _______  _________  ______   _____  __________
+   / ___/ / / /  _/ _ \/ __/ /  /  _/ |/ / __/ __/
+  / (_ / /_/ // // // / _// /___/ //    / _/_\ \  
+  \___/\____/___/____/___/____/___/_/|_/___/___/  
+          </pre></p>
+                                                                    
+          <h3>Guidelines</h3>
+          <ul>
+            <li>Design due by July 10th</li>
+            <li>We want your fresh take on the brand, but it should still fit our general "vibe", this is a design competition. </li>
+            <li>Winner receives free coffee for a year -- any drink you want. But not for your friends. We're pretty chill, but don't abuse your newfound superpower.</li>
+            <li>If you are selected, your design will need to be printed and presented in a minimum 11"x17" size format at the event (we'll help).</li>
+          </ul>
+        </section>
+
+        <section id="submit">
         <p><pre id="taag_output_text" class="fig" >
-  _______  _________  ______   _____  __________
- / ___/ / / /  _/ _ \/ __/ /  /  _/ |/ / __/ __/
-/ (_ / /_/ // // // / _// /___/ //    / _/_\ \  
-\___/\____/___/____/___/____/___/_/|_/___/___/  
+     _____ __  ______  __  _____________
+    / ___// / / / __ )/  |/  /  _/_  __/
+    \__ \/ / / / __  / /|_/ // /  / /   
+   ___/ / /_/ / /_/ / /  / // /  / /    
+  /____/\____/_____/_/  /_/___/ /_/     
+                                               
         </pre></p>
-                                                                  
-        <h3>Guidelines</h3>
+                       
+        <h3>What to include with your submission</h3>
         <ul>
-          <li>Design due by July 10th</li>
-          <li>We want your fresh take on the brand, but it should still fit our general "vibe", this is a design competition. </li>
-          <li>Winner receives free coffee for a year -- any drink you want. But not for your friends. We're pretty chill, but don't abuse your newfound superpower.</li>
-          <li>If you are selected, your design will need to be printed and presented in a minimum 11"x17" size format at the event (we'll help).</li>
+          <li>Name:</li>
+          <li>Talk about yourself, or not:</li>
+          <li>Hometown:</li>
+          <li>Your website (if you have one):</li>
+          <li>Your favorite website:</li>
+          <li>Your design, duh!</li>
         </ul>
-      </section>
 
-      <section id="submit">
-      <p><pre id="taag_output_text" class="fig" >
-   _____ __  ______  __  _____________
-  / ___// / / / __ )/  |/  /  _/_  __/
-  \__ \/ / / / __  / /|_/ // /  / /   
- ___/ / /_/ / /_/ / /  / // /  / /    
-/____/\____/_____/_/  /_/___/ /_/     
-                                             
-      </pre></p>
-                     
-      <h3>What to include with your submission</h3>
-      <ul>
-        <li>Name:</li>
-        <li>Talk about yourself, or not:</li>
-        <li>Hometown:</li>
-        <li>Your website (if you have one):</li>
-        <li>Your favorite website:</li>
-        <li>Your design, duh!</li>
-      </ul>
+        <p>      Send it all on to: submit@fillingstationcoffee.com, or click this huge button to submit:</p>
 
-      <p>      Send it all on to: submit@fillingstationcoffee.com, or click this huge button to submit:</p>
+        <a title="Submit to Filling Station design competition" class="btn--animated btn--full link heavy mw-75 mal" href="mailto:submit@fillingstationcoffee.com?subject=Design%20Submission">SUBMIT</a>
 
-      <a title="Submit to Filling Station design competition" class="btn--animated btn--full link heavy mw-75 mal" href="mailto:submit@fillingstationcoffee.com?subject=Design%20Submission">SUBMIT</a>
-
-       </section>
+         </section>
+       </div>
     </main>
 
     <footer class="tc center bg-cv">
